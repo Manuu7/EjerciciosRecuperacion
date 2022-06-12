@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquina Expendedora</title>
+</head>
+<body>
+    <form action="MaquinaEXP.php" method="post" target="_blank">
+    <label><h2>Maquina Expendedora</h2></label>
+    <label>Introduzca el importe: </label><input type="text" name="importe1" /><br>
+
+    <select name="operando">
+        <legend>Herramientas</legend>
+        <option value="cola">coca-cola(1.50€)</option>
+        <option value="fanta">fanta(1.50€)</option>
+        <option value="nestea">nestea(1.25€)</option>
+        <option value="agua">agua(1.00€)</option>
+        <option value="redbull">redbull(1.75€)</option>
+        <option value="chocobons">chocobons(2.50€)</option>
+        <option value="doritos">doritos(2.00€)</option>
+        <option value="buscalios">buscalios(1.85€)</option>
+    </select>
+</form>
+            <label><input class="clase" type="submit" name="enviar" value="Enviar" id="enviar"/></label>
+            <label><input class="clase" type="reset" name="reset"  value="Reset" id="reset"/></label>
+    </form>
+</body>
+</html>
