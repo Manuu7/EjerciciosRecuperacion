@@ -10,7 +10,6 @@ $redbull=1.75;
 $chocobons=2.50;
 $doritos=2.00;
 $buscalios=1.85;
-
 $selector=$_POST["operando"]
 
 if ($importe > $cola) {
